@@ -1,0 +1,150 @@
+.header {
+    display: flex;
+    color: white;
+}
+
+ol,
+ul {
+    list-style: none;
+    
+}
+
+.header img {
+    width:  500px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 80px;
+}
+
+.header a{
+    font-size: 20;
+    color: white;
+    text-decoration: none;  
+    padding: 20px 20px;
+}
+
+.hero {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px 165px;
+}
+.hero img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.hero-detail {
+    margin: 20px 200px;
+    color: black;;
+    background: white;
+    padding: 20px;
+    margin-top: -70px;
+    position: relative;
+ /*    text-align: center; */
+}
+
+.body {
+    background-color: #061229;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.photos {
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 1000px;
+    margin-left:165px;
+    
+}
+
+.photos article {
+    display: flex;
+    justify-content: space-between;
+}
+.photos h4 {
+    font-weight: bold 100;
+} 
+
+.first img {
+    width: 150px;
+    height: 250 px; 
+}
+
+
+.second img {
+    width: 400px;
+    height: 200px;
+}
+
+.threeth img {
+    width: 400px;
+    height: 200px;
+}
+
+.fourth img {
+    width: 400px;
+    height: 400px;
+}
+
+.fiveth img {
+    width: 350px;
+    height: 350px;
+}
+
+.sixth img{
+    width: 400px;
+    height: 400px;
+}
+
+.seventh img{
+    width: 400px;
+    height: 400px;
+}
+
+.eighth img{
+    width: 400px;
+    height: 500px;
+}
+
+.nineth img {
+    width: 400px;
+    height: 230px;
+}
+
+.tenth img {
+    width: 400px;
+    height: 230px;
+}
+
+.eleventh img {
+    width: 200px;
+    height: 300px;
+}
+
+.twelvth img {
+    width: 400px;
+    height: 230px;
+}
+.thirteenth img {
+    width: 300px;
+    height: 400px;
+}
+
+.container {
+    /*  border: 1px solid red;  */
+    margin: 0 auto;
+    width:  1000px;
+    display: inherit;
+}
+
+.container text {
+    display: block;
+}
